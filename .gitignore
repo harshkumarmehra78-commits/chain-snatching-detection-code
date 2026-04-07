@@ -1,0 +1,72 @@
+# Video files (large media)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Dataset (use .gitkeep to preserve folder structure)
+dataset/normal/*.avi
+dataset/normal/*.mp4
+dataset/snatching/*.avi
+dataset/snatching/*.mp4
+
+# Model files (large binary files)
+model.h5
+svm_model.pkl
+rf_model.pkl
+
+# Feature files (large numpy arrays)
+X.npy
+y.npy
+
+# Generated diagrams (large PNG files)
+diagrams_from_training/*.png
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
