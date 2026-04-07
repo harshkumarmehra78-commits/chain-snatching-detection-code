@@ -6,11 +6,13 @@
 *.flv
 *.wmv
 
-# Dataset (use .gitkeep to preserve folder structure)
+# Dataset (exclude video files, but keep .gitkeep and README)
 dataset/normal/*.avi
 dataset/normal/*.mp4
 dataset/snatching/*.avi
 dataset/snatching/*.mp4
+!dataset/**/.gitkeep
+!dataset/**/*.md
 
 # Model files (large binary files)
 model.h5
